@@ -1,38 +1,278 @@
-.App {
-  text-align: center;
+
+.info
+{
+  z-index: 10;
+position: absolute;
+margin-left: 3%;
+margin-top: 46%;
+background: transparent;
+color:#FFFFFF;
+border: none;
+
+font-family: 'Sora', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.sub
+{
+ 
+  z-index: 10;
+position: fixed;
+margin-left: 57%;
+margin-top: 5%;
+margin-bottom: 30%;
+width: 50%;
+border: none;
+background: transparent;
+
+font-family: 'Gemunu Libre Medium', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.075em;
+
+color:#FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .enter
+{
+  z-index: 10;
+  position: fixed;
+  margin-left: 57%;
+  margin-top: 7.6%;
+  width: 24%;
+/* left: 57.15%;
+right: 33.68%;
+top: 16.39%;
+bottom: 80.83%; */
+padding: 7px;
+border-radius: 18px;
+
+
+font-family: 'Gemunu Libre Medium', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+ letter-spacing: 0.105em;
+
+color: #636363;
+}
+
+.notify
+{
+z-index: 10;
+position: fixed;
+margin-left: 84%;
+margin-bottom: 10%;
+margin-top: 7.6%;
+/* left: 78%;
+right: 5.83%;
+top: 14%;
+bottom: 78.33%; */
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 30px;
+background: #144189;
+border-color: white;
+
+box-sizing: border-box;
+font-family: 'Gemunu Libre Medium', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 32px;
+
+ letter-spacing: 0.105em;
+text-transform: uppercase; 
+
+color: #FFFFFF;
+}
+
+.soon
+{
+  z-index: 10;
+  position: fixed;
+  margin-left: 8%;
+  margin-top: 32%;
+  border: none;
+  background: transparent;
+  text-shadow: 1px 1px white;
+  
+  font-family: 'Sora', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 81px;
+text-align: center;
+letter-spacing: 0.079em;
+
+color: #144189;
+}
+
+
+.certify
+{
+ z-index: 10;
+position: fixed;
+width: 35%;
+margin-left: 12%;
+margin-top: 26%;
+border: none;
+background: transparent;
+
+font-family: 'Sora', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+letter-spacing: 0.22em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.uni
+{
+  z-index: 10;
+  position:fixed;
+  width: 35%;
+  margin-left: 11%;
+  margin-right: 20%;
+  margin-top: 24%;
+  border: none;
+  background: transparent;
+  text-decoration:underline;
+
+  font-family: 'Sora', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color:white;
+}
+
+.net
+{
+  z-index: 10;
+position: fixed;
+width: 35%;
+margin-left: 11%;
+margin-top: 15%;
+border: none;
+border-radius: 5px;
+background: transparent;
+
+
+font-family: 'Gemunu Libre Medium', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.3em;
+border: 1px dashed #FFFFFF;
+text-transform: uppercase;
+color:#FFFFFF;
+
+}
+
+.image1
+{
+   position: fixed;
+  
+  
+}
+
+.image2
+{
+  position:fixed;
+  margin-left: 50%;
+  margin-top: 15.9%;
+  
+}
+
+.image3
+{
+  position: fixed;
+  margin-left: 12%;
+  margin-top: 4%;
+}
+@media (min-width: 1024)
+{
+  .image3
+  {
+    width:10%;
+  }
+
+  .image2{
+    width: 100%;
+  }
+  .enter{
+    margin-top: 60%;
+    margin-bottom: 50%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width:769) and (max-width: 1199)
+{
+  .image3
+  {
+    width: 20%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .enter
+  {
+    width: 5%;
+  }
+
+  .uni
+  {
+      width: 5%;
+  }
+}
+@media (max-width: 768px)
+{
+  .image3
+  {
+    width: 30%;
+  }
+
+  .notify
+  {
+    width: 10%;
+  }
+  
+  .enter{
+    width: 20%;
+  }
+}
+
+
+
+
+@media (max-width: 468)
+{
+  .image3
+  {
+    width: 10%;
   }
 }
