@@ -445,13 +445,16 @@ color:#FFFFFF;
   .info
   {
     margin-top: 60%;
-    font-size: 13px;
+    font-size: 10px;
+    
   }
   .enter
   {
     font-size: 12px;
     letter-spacing: 0.105px;
     margin-top: 10%;
+    margin-left: 53%;
+    width: 25%;
   }
 
   .sub
@@ -459,12 +462,18 @@ color:#FFFFFF;
     font-size: 7px;
     letter-spacing: 0.060em;
     margin-top: 6%;
+    margin-left: 54.5%;
+  
   }
   .notify
   {
     font-size: 6px;
     letter-spacing: 0.200em;
     margin-top: 10%;
+    margin-left: 82%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0%;
   }
    .soon
    {
@@ -482,21 +491,21 @@ color:#FFFFFF;
    }
    .uni
    {
-    font-size: 10px;
-    margin-left: 9%;
+    font-size: 8px;
+    margin-left: 11%;
     margin-top: 30%;
    }
    .certify
    {
-     font-size: 8.3px;
-     margin-left: 9.5%;
+     font-size: 6.5px;
+     margin-left: 11.5%;
      margin-top: 33%;
    }
    
    
    .net
    {
-    font-size: 10px;
+    font-size: 8px;
     letter-spacing: 0.1em;
      margin-left: 9%;
      margin-top: 16%;
@@ -514,6 +523,7 @@ color:#FFFFFF;
     font-size: 5px;
     letter-spacing: 0.060em;
     margin-top: 6%;
+    margin-left: 55%;
   }
 
    .enter
@@ -521,35 +531,39 @@ color:#FFFFFF;
     font-size: 10px;
     letter-spacing: 0.105px;
     margin-top: 10%;
-    margin-left: 55%;
+    margin-left: 54%;
     width: 25%;
    }
 
    .notify
    {
-    font-size: 4px;
+    font-size: 3px;
     letter-spacing: 0.200em;
     margin-top: 10%;
     margin-left: 84.2%;
+    
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0%;
    }
 
    .net
    {
-    font-size: 8px;
+    font-size: 5px;
     letter-spacing: 0.1em;
      margin-left: 9%;
      margin-top: 16%;
    }
    .uni
    {
-    font-size: 8px;
-    margin-left: 9%;
+    font-size: 6px;
+    margin-left: 12%;
     margin-top: 30%;
    }
    .certify
    {
-    font-size: 6px;
-    margin-left: 11%;
+    font-size: 5px;
+    margin-left: 12%;
     margin-top: 33%;
    }
 
