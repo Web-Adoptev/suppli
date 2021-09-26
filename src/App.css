@@ -571,6 +571,62 @@ color:#FFFFFF;
 
 }
 
+@media (max-width: 360px)
+{
+   .image3
+   {
+     width: 35%;
+   }
+   .net
+   {
+    font-size: 5.5px;
+    letter-spacing: 0.1em;
+     margin-left: 7%;
+     margin-top: 16%;
+   }
+   .uni
+   {
+    font-size: 6px;
+    margin-left: 8.5%;
+    margin-top: 30%;
+   }
+   .certify
+   {
+    font-size: 5px;
+    margin-left: 9%;
+    margin-top: 33%;
+   } 
+   .soon
+   {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    margin-left: 7%;
+    margin-top: 40%;
+   }
+   .sub
+   {
+    font-size: 4px;
+    letter-spacing: 0.060em;
+    margin-top: 5%;
+    margin-left: 53%;
+   }
+   .enter
+   {
+    font-size: 10px;
+    letter-spacing: 0.105px;
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 25%;
+   }
+   .notify
+   {
+    font-size: 3px;
+    letter-spacing: 0.200em;
+    margin-top: 10%;
+    margin-left: 81.5%;
+   }
+}
+
 
 
 
