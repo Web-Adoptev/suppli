@@ -269,27 +269,39 @@ color:#FFFFFF;
 
 @media (min-width: 1200px)
 {
+  .info
+  {
+    margin-top: 42%;
+  }
+  .net
+  {
+    margin-top: 14%;
+  }
    .uni
    {
     font-size: 19px;
-    margin-left: 13.5%;
+    margin-left: 13%;
+    margin-top: 23%;
    }
    .certify
    {
     font-size: 16px;
-    margin-left: 13.5%;
+    margin-left: 13%;
+    margin-top: 25%;
    }
 
    .soon
    {
     font-size: 41px;
     letter-spacing: 0.02em;
-    margin-left: 15%;
+    margin-left: 14%;
+    margin-top: 30%;
    }
 
    .image3
    {
      width: 34%;
+     margin-top: 3%;
    }
    .image2
    {
