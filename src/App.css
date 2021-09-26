@@ -2,9 +2,9 @@
 .info
 {
   z-index: 10;
-position: absolute;
+position: fixed;
 margin-left: 3%;
-margin-top: 46%;
+margin-top: 45%;
 background: transparent;
 color:#FFFFFF;
 border: none;
@@ -111,6 +111,7 @@ color: #FFFFFF;
   border: none;
   background: transparent;
   text-shadow: 1px 1px white;
+ 
   
   font-family: 'Sora', sans-serif;
 font-style: normal;
@@ -119,7 +120,6 @@ font-size: 58px;
 line-height: 81px;
 text-align: center;
 letter-spacing: 0.079em;
-
 color: #144189;
 }
 
@@ -151,7 +151,7 @@ color: #FFFFFF;
   z-index: 10;
   position:fixed;
   width: 35%;
-  margin-left: 11%;
+  margin-left: 11.5%;
   margin-right: 20%;
   margin-top: 24%;
   border: none;
@@ -216,10 +216,9 @@ color:#FFFFFF;
   margin-left: 12%;
   margin-top: 4%;
 }
-@media (min-width: 1024)
+/* @media (min-width: 1024)
 {
-  .image3
-  {
+  .image3{ 
     width:10%;
   }
 
@@ -234,30 +233,25 @@ color:#FFFFFF;
 
 @media (min-width:769) and (max-width: 1199)
 {
-  .image3
-  {
+  .image3{
     width: 20%;
   }
 
-  .enter
-  {
+  .enter{
     width: 5%;
   }
 
-  .uni
-  {
+  .uni{
       width: 5%;
   }
 }
 @media (max-width: 768px)
 {
-  .image3
-  {
+  .image3{
     width: 30%;
   }
 
-  .notify
-  {
+  .notify{
     width: 10%;
   }
   
@@ -266,13 +260,288 @@ color:#FFFFFF;
   }
 }
 
-
-
-
 @media (max-width: 468)
 {
-  .image3
-  {
+  .image3{
     width: 10%;
   }
+} */
+
+@media (min-width: 1200px)
+{
+   .uni
+   {
+    font-size: 19px;
+    margin-left: 13.5%;
+   }
+   .certify
+   {
+    font-size: 16px;
+    margin-left: 13.5%;
+   }
+
+   .soon
+   {
+    font-size: 41px;
+    letter-spacing: 0.02em;
+    margin-left: 15%;
+   }
+
+   .image3
+   {
+     width: 34%;
+   }
+   .image2
+   {
+     width: 50%;
+   }
 }
+
+@media (max-width: 990px)
+{
+   .image3
+   {
+     width: 39%;
+     margin-top: 7%;
+   }
+   .enter
+   {
+     margin-top: 12%;
+   }
+   .notify
+   {
+     margin-top: 12%;
+   }
+
+   .net
+   {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin-top: 20%;
+    margin-left: 12.5%;
+   }
+
+   .uni
+   {
+    font-size: 14px;
+    margin-left: 12%;
+    margin-top: 36%;
+   }
+   .certify
+   {
+    font-size: 11.5px;
+    margin-left: 12.5%;
+    margin-top: 38%;
+   }
+
+   .info
+   {
+     margin-top: 69%;
+   }
+
+   .image2
+   {
+     width: 80%;
+   }
+
+   .soon
+   {
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    margin-left: 11%;
+    margin-top: 50%;
+   }
+   
+   .sub
+   {
+    font-size: 11px;
+    letter-spacing: 0.060em;
+    margin-top: 9%;
+   }
+  
+}
+
+@media (max-width: 800px)
+{
+  .net
+  {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin-left: 10%;
+  }
+
+  .uni
+  {
+    /* width: 60%; */
+    font-size: 13px;
+    margin-left: 10%;
+  }
+  .certify
+  {
+    /* width: 70%; */
+    font-size: 11px;
+    margin-left: 10%;
+  }
+  .soon
+  {
+    font-size: 33px;
+    letter-spacing: 0.05em;
+    margin-left: 9%;
+    
+  }
+  
+  .sub
+  {
+    font-size: 8.5px;
+    letter-spacing: 0.060em;
+  }
+  
+  .image2
+  {
+    width: 60%;
+  }
+  .image3
+  {
+    width: 40%;
+    margin-left: 9%;
+  }
+
+}
+
+@media (max-width: 600px)
+{
+  .info
+  {
+    margin-top: 60%;
+  }
+  .enter
+  {
+    font-size: 12px;
+    letter-spacing: 0.105px;
+    margin-top: 10%;
+  }
+
+  .sub
+  {
+    font-size: 7px;
+    letter-spacing: 0.060em;
+    margin-top: 6%;
+  }
+  .notify
+  {
+    font-size: 6px;
+    letter-spacing: 0.200em;
+    margin-top: 10%;
+  }
+   .soon
+   {
+    font-size: 26px;
+    letter-spacing: 0.02em;
+    margin-left: 7%;
+    margin-top: 42%;
+   }
+
+   .image3
+   {
+     width: 40%;
+     margin-left: 8%;
+     margin-top: 3%;
+   }
+   .uni
+   {
+    font-size: 10px;
+    margin-left: 9%;
+    margin-top: 30%;
+   }
+   .certify
+   {
+     font-size: 8.3px;
+     margin-left: 9.5%;
+     margin-top: 33%;
+   }
+   
+   
+   .net
+   {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+     margin-left: 9%;
+     margin-top: 16%;
+   }
+   .image2
+   {
+     width: 70%;
+   }
+}
+
+@media (max-width: 480px)
+{
+  .sub
+  {
+    font-size: 5px;
+    letter-spacing: 0.060em;
+    margin-top: 6%;
+  }
+
+   .enter
+   {
+    font-size: 10px;
+    letter-spacing: 0.105px;
+    margin-top: 10%;
+    margin-left: 55%;
+    width: 25%;
+   }
+
+   .notify
+   {
+    font-size: 4px;
+    letter-spacing: 0.200em;
+    margin-top: 10%;
+    margin-left: 84.5%;
+   }
+
+   .net
+   {
+    font-size: 8px;
+    letter-spacing: 0.1em;
+     margin-left: 9%;
+     margin-top: 16%;
+   }
+   .uni
+   {
+    font-size: 8px;
+    margin-left: 9%;
+    margin-top: 30%;
+   }
+   .certify
+   {
+    font-size: 6px;
+    margin-left: 11%;
+    margin-top: 33%;
+   }
+
+   .soon
+   {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    margin-left: 9%;
+    margin-top: 40%;
+
+   }
+
+   .info
+   {
+    margin-top: 60%;
+    font-size: 10px;
+   }
+
+   .image2
+   {
+      
+   }
+
+}
+
+
+
+
