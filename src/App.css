@@ -579,21 +579,21 @@ color:#FFFFFF;
    }
    .net
    {
-    font-size: 5.5px;
+    font-size: 4px;
     letter-spacing: 0.1em;
      margin-left: 7%;
      margin-top: 16%;
    }
    .uni
    {
-    font-size: 6px;
+    font-size: 4px;
     margin-left: 8.5%;
     margin-top: 30%;
    }
    .certify
    {
-    font-size: 5px;
-    margin-left: 9%;
+    font-size: 3px;
+    margin-left: 10%;
     margin-top: 33%;
    } 
    .soon
@@ -607,23 +607,36 @@ color:#FFFFFF;
    {
     font-size: 4px;
     letter-spacing: 0.060em;
-    margin-top: 5%;
-    margin-left: 53%;
+    margin-top: 4%;
+    margin-left: 50%;
    }
    .enter
    {
     font-size: 10px;
     letter-spacing: 0.105px;
     margin-top: 10%;
-    margin-left: 50%;
+    margin-left: 45%;
+    margin-right: 90%;
     width: 25%;
+    line-height: 12px;
    }
    .notify
    {
-    font-size: 3px;
-    letter-spacing: 0.200em;
+    font-size: 3.1px;
+    letter-spacing: 0.1px;
     margin-top: 10%;
-    margin-left: 81.5%;
+    margin-left: 77.5%;
+    
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0%;
+  
+    width: 20%;
+    /* height: 10px;
+    text-align: top; */
+    box-sizing: border-box;
+    line-height: 25px;
+
    }
 
 }
