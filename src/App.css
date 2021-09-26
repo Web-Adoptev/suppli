@@ -336,7 +336,7 @@ color:#FFFFFF;
 
    .info
    {
-     margin-top: 69%;
+     margin-top: 67%;
    }
 
    .image2
@@ -363,11 +363,25 @@ color:#FFFFFF;
 
 @media (max-width: 800px)
 {
+  .info
+  {
+    margin-top: 53%;
+
+  }
+  .enter
+  {
+    margin-top: 11%;
+  }
+  .notify
+  {
+    margin-top: 11%;
+  }
   .net
   {
     font-size: 12px;
     letter-spacing: 0.1em;
     margin-left: 10%;
+    margin-top: 17%;
   }
 
   .uni
@@ -375,25 +389,29 @@ color:#FFFFFF;
     /* width: 60%; */
     font-size: 13px;
     margin-left: 10%;
+    margin-top: 28%;
   }
   .certify
   {
     /* width: 70%; */
     font-size: 11px;
     margin-left: 10%;
+    margin-top: 30%;
   }
   .soon
   {
     font-size: 33px;
     letter-spacing: 0.05em;
     margin-left: 9%;
-    
+    margin-top: 35%;
   }
   
   .sub
   {
     font-size: 8.5px;
     letter-spacing: 0.060em;
+    margin-left: 58%;
+    margin-top: 7%;
   }
   
   .image2
@@ -404,6 +422,7 @@ color:#FFFFFF;
   {
     width: 40%;
     margin-left: 9%;
+    margin-top: 4%;
   }
 
 }
@@ -413,6 +432,7 @@ color:#FFFFFF;
   .info
   {
     margin-top: 60%;
+    font-size: 13px;
   }
   .enter
   {
@@ -497,7 +517,7 @@ color:#FFFFFF;
     font-size: 4px;
     letter-spacing: 0.200em;
     margin-top: 10%;
-    margin-left: 84.5%;
+    margin-left: 84.2%;
    }
 
    .net
