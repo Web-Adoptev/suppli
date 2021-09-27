@@ -197,8 +197,9 @@ color:#FFFFFF;
 
 .image1
 {
-   position: fixed;
-  
+   position: absolute;
+  width: 100%;
+  height: 100%;
   
 }
 
@@ -216,56 +217,6 @@ color:#FFFFFF;
   margin-left: 12%;
   margin-top: 4%;
 }
-/* @media (min-width: 1024)
-{
-  .image3{ 
-    width:10%;
-  }
-
-  .image2{
-    width: 100%;
-  }
-  .enter{
-    margin-top: 60%;
-    margin-bottom: 50%;
-  }
-}
-
-@media (min-width:769) and (max-width: 1199)
-{
-  .image3{
-    width: 20%;
-  }
-
-  .enter{
-    width: 5%;
-  }
-
-  .uni{
-      width: 5%;
-  }
-}
-@media (max-width: 768px)
-{
-  .image3{
-    width: 30%;
-  }
-
-  .notify{
-    width: 10%;
-  }
-  
-  .enter{
-    width: 20%;
-  }
-}
-
-@media (max-width: 468)
-{
-  .image3{
-    width: 10%;
-  }
-} */
 
 @media (min-width: 1200px)
 {
@@ -280,21 +231,23 @@ color:#FFFFFF;
    .uni
    {
     font-size: 19px;
-    margin-left: 13%;
+    margin-left: 14.5%;
     margin-top: 23%;
+    font-size: 20px;
    }
    .certify
    {
     font-size: 16px;
-    margin-left: 13%;
+    margin-left: 14.7%;
     margin-top: 25%;
+    font-size: 16.5px;
    }
 
    .soon
    {
-    font-size: 41px;
+    font-size: 47px;
     letter-spacing: 0.02em;
-    margin-left: 14%;
+    margin-left: 15%;
     margin-top: 30%;
    }
 
@@ -401,14 +354,14 @@ color:#FFFFFF;
   {
     /* width: 60%; */
     font-size: 13px;
-    margin-left: 10%;
+    margin-left: 11.5%;
     margin-top: 28%;
   }
   .certify
   {
     /* width: 70%; */
     font-size: 11px;
-    margin-left: 10%;
+    margin-left: 11.5%;
     margin-top: 30%;
   }
   .soon
