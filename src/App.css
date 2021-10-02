@@ -34,7 +34,7 @@ width: 50%;
 border: none;
 background: transparent;
 
-font-family: 'Gemunu Libre Medium', sans-serif;
+font-family: 'Gemunu Libre ExtraLight', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -50,14 +50,14 @@ color:#FFFFFF;
 {
   z-index: 10;
   position: fixed;
-  margin-left: 57%;
+  margin-left: 57.5%;
   margin-top: 7.6%;
   width: 24%;
 /* left: 57.15%;
 right: 33.68%;
 top: 16.39%;
 bottom: 80.83%; */
-padding: 7px;
+padding: 9px;
 border-radius: 18px;
 
 
@@ -65,7 +65,7 @@ font-family: 'Gemunu Libre Medium', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
-line-height: 20px;
+line-height: 24px;
 /* identical to box height */
 
  letter-spacing: 0.105em;
@@ -84,6 +84,7 @@ margin-top: 7.6%;
 right: 5.83%;
 top: 14%;
 bottom: 78.33%; */
+padding: 3.5px;
 padding-left: 20px;
 padding-right: 20px;
 border-radius: 30px;
@@ -95,7 +96,7 @@ font-family: 'Gemunu Libre Medium', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 10px;
-line-height: 32px;
+line-height: 35px;
 
  letter-spacing: 0.105em;
 text-transform: uppercase; 
@@ -139,7 +140,7 @@ font-family: 'Sora', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 17px;
-line-height: 23px;
+line-height: 24px;
 /* identical to box height */
 
 letter-spacing: 0.22em;
@@ -183,6 +184,7 @@ width: 23%;
 margin-left: 15%;
 margin-top: 15%;
 border: none;
+padding: 0%;
 border-radius: 5px;
 background: transparent;
 
@@ -237,6 +239,7 @@ color:#FFFFFF;
   }
   .net
   {
+    width: fit-content;
     margin-top: 14%;
     margin-left: 15%;
     font-family: 'Gemunu Libre ExtraLight';
