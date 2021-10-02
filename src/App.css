@@ -163,6 +163,7 @@ color: #FFFFFF;
   border-bottom-style: solid;
   border-bottom-width: 3px;
   
+  
 
   font-family: 'Sora';
   font-style: normal;
@@ -645,7 +646,7 @@ color:#FFFFFF;
      width: fit-content;
     font-size: 14px;
     letter-spacing: 0.1em;
-     margin-left: 22%;
+     margin-left: 20%;
      margin-top: 48%;
    }
    .uni
@@ -706,7 +707,7 @@ color:#FFFFFF;
     /* height: 10px;
     text-align: top; */
     box-sizing: border-box;
-    line-height: 25px;
+    line-height: 26px;
   
 
    }
