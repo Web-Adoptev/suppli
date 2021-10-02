@@ -6,7 +6,8 @@ import logo from './logo.svg';
 import './App.css';
 import img1 from './images/blue.png';
 import img2 from './images/group.png';
-import img3 from './images/white.png';
+//import img3 from './images/white.png';
+import img4 from './images/white1.png';
 
 
 class App extends Component {
@@ -45,7 +46,7 @@ render(){
       
       <div className="container">
         <a href="help@suppli.io" className="info" > For more info: help@suppli.io</a>
-        <span className="sub">Subscribe to get notification as soon we launch</span>
+        <span className="sub">Subscribe to get notification as soon as we launch</span>
         <input type="text" id="emailid" className="enter" placeholder="Enter your email"></input>
         <button className="notify" onClick={notify}> NOTIFY ME </button>
         <span className="soon" > COMING SOON</span>
@@ -57,7 +58,7 @@ render(){
       <div>
       <img src={img1} alt="" className="image1"></img>
       <img src={img2} alt="" className="image2"></img>
-      <img src={img3} alt="" className="image3"></img>
+      <img src={img4} alt="" className="image4"></img>
       
       </div>
     </div>
