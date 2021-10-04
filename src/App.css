@@ -442,7 +442,7 @@ color:#FFFFFF;
 {
   .info
   {
-    margin-top: 50%;
+    margin-top: 20%;
 
   }
   .enter
@@ -466,26 +466,26 @@ color:#FFFFFF;
   {
     /* width: 60%; */
     font-size: 13px;
-    margin-left: 11.5%;
-    margin-top: 28%;
+    margin-left: 11%;
+    margin-top: 30%;
     width: fit-content;
     padding-bottom: 0%;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 1px;
   }
   .certify
   {
     /* width: 70%; */
     font-size: 11px;
-    margin-left: 11.5%;
-    margin-top: 32%;
+    margin-left: 11%;
+    margin-top: 34%;
   }
   .soon
   {
     font-size: 33px;
     letter-spacing: 0.05em;
     margin-left: 9%;
-    margin-top: 35%;
+    margin-top: 45%;
   }
   
   .sub
@@ -527,35 +527,35 @@ color:#FFFFFF;
   {
     font-size: 12px;
     letter-spacing: 0.105px;
-    margin-top: 58%;
-    margin-left: 10%;
+    margin-top: 22%;
+    margin-left: 57%;
     width: 25%;
   }
 
   .sub
   {
-    font-size: 7px;
+    font-size: 10px;
     letter-spacing: 0.060em;
-    margin-top: 54%;
-    margin-left: 10%;
-  
+    margin-top: 18%;
+    margin-left: 58%;
+    
   }
   .notify
   {
-    font-size: 6px;
+    font-size: 6.5px;
     letter-spacing: 0.200em;
-    margin-top: 58%;
-    margin-left: 40%;
+    margin-top: 22%;
+    margin-left: 87%;
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 0%;
+    padding-top: 0.5%;
   }
    .soon
    {
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: 0.02em;
-    margin-left: 7%;
-    margin-top: 35%;
+    margin-left: 6%;
+    margin-top: 65%;
    }
 
    /* .image3
@@ -569,24 +569,24 @@ color:#FFFFFF;
    {
     position: fixed;
     width: 40%;
-    margin-left: 8%;
-    margin-top: 3%;
+    margin-left: 7%;
+    margin-top: 13%;
    }
    .uni
    {
     font-size: 9px;
-    margin-left: 11%;
-    margin-top: 25%;
+    margin-left: 9%;
+    margin-top: 45%;
     width: fit-content;
     padding-bottom: 0%;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 1px;
    }
    .certify
    {
      font-size: 7.5px;
-     margin-left: 11.3%;
-     margin-top: 30%;
+     margin-left: 9%;
+     margin-top: 50%;
    }
    
    
@@ -595,14 +595,14 @@ color:#FFFFFF;
      width: fit-content;
     font-size: 15px;
     letter-spacing: 0.1em;
-     margin-left: 10%;
-     margin-top: 16%;
+     margin-left: 8%;
+     margin-top: 28%;
    }
    .image2
    {
      width: 70%;
      margin-top: 70%;
-     margin-left: 3%;
+     margin-left: 35%;
    }
 }
 
@@ -642,7 +642,7 @@ color:#FFFFFF;
      width: fit-content;
     font-size: 15px;
     letter-spacing: 0.1em;
-     margin-left: 28%;
+     margin-left: 25%;
      margin-top: 25%;
    }
    .uni
