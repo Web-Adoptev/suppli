@@ -58,7 +58,7 @@ right: 33.68%;
 top: 16.39%;
 bottom: 80.83%; */
 padding: 9px;
-border-radius: 18px;
+border-radius: 20px;
 
 
 font-family: 'Gemunu Libre Medium', sans-serif;
@@ -162,7 +162,7 @@ color: #FFFFFF;
   padding-bottom: 0px;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  
+
   
 
   font-family: 'Sora';
@@ -193,7 +193,7 @@ background: transparent;
 font-family: 'Gemunu Libre ExtraLight', sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 15px;
+font-size: 18px;
 line-height: 22px;
 text-align: center;
 letter-spacing: 0.3em;
@@ -231,9 +231,23 @@ color:#FFFFFF;
   margin-left: 12%;
   margin-top: 4%;
 }
+@media (min-width: 1366px)
+{
+  .net
+  {
+    width: fit-content;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Gemunu Libre ExtraLight';
+  }
+}
 
 @media (min-width: 1200px)
 {
+  .enter
+  {
+    margin-left: 57%;
+  }
   .info
   {
     margin-top: 44%;
@@ -242,7 +256,7 @@ color:#FFFFFF;
   {
     width: fit-content;
     margin-top: 14%;
-    margin-left: 15%;
+    margin-left: 14%;
     font-family: 'Gemunu Libre ExtraLight';
   }
    .uni
@@ -253,7 +267,7 @@ color:#FFFFFF;
     width: fit-content;
     padding-bottom: 0px;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 1px;
    }
    .certify
    {
@@ -287,6 +301,65 @@ color:#FFFFFF;
    {
      width: 50%;
    }
+}
+@media (max-width: 1024px)
+{
+  .image4
+  {
+    width: 28%;
+    margin-top: 3%;
+    margin-left: 12.5%;
+
+  }
+  .net
+  {
+    width: fit-content;
+    margin-top: 14%;
+    margin-left: 12%;
+    font-family: 'Gemunu Libre ExtraLight';
+  }
+  .uni
+  {
+    font-size: 18px;
+    margin-left: 9%;
+    margin-top: 27%;
+    width: fit-content;
+    padding-bottom: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  }
+  .certify
+  {
+    font-size: 15px;
+    margin-left: 9%;
+    margin-top: 30%;
+    width: fit-content;
+    viewport-fit: 412 x 732;
+  }
+  .soon
+  {
+    font-size: 55px;
+    letter-spacing: 0.02em;
+    margin-left: 5%;
+    margin-top: 40%;
+  }
+  .info
+  {
+    margin-top: 50%;
+  }
+  .notify
+  {
+    margin-left: 85%;
+  }
+  .sub
+  {
+    margin-left: 58%;
+  }
+  .image2
+  {
+    margin-top: 19%;
+  }
+
 }
 
 @media (max-width: 990px)
@@ -537,7 +610,7 @@ color:#FFFFFF;
 {
   .sub
   {
-    font-size: 8px;
+    font-size: 10px;
     letter-spacing: 0.060em;
     margin-top: 85%;
     margin-left: 18%;
@@ -581,13 +654,13 @@ color:#FFFFFF;
     width: fit-content;
     padding-bottom: 0%;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 1px;
    }
    .certify
    {
      width: 100%;
-    font-size: 11px;
-    margin-left: 20%;
+    font-size: 10.5px;
+    margin-left: 21%;
     margin-top: 46%;
    }
 
@@ -596,7 +669,7 @@ color:#FFFFFF;
      
     font-size: 35px;
     letter-spacing: 0.02em;
-    margin-left: 16%;
+    margin-left: 18%;
     margin-top: 60%;
     
    }
@@ -646,7 +719,7 @@ color:#FFFFFF;
      width: fit-content;
     font-size: 14px;
     letter-spacing: 0.1em;
-     margin-left: 20%;
+     margin-left: 16%;
      margin-top: 48%;
    }
    .uni
@@ -658,7 +731,7 @@ color:#FFFFFF;
     width: fit-content;
     padding-bottom: 0%;
   border-bottom-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 1px;
    }
    .certify
    {
@@ -671,7 +744,7 @@ color:#FFFFFF;
    {
     font-size: 30px;
     letter-spacing: 0.02em;
-    margin-left: 18%;
+    margin-left: 16%;
     margin-top: 90%;
    }
    .sub
@@ -694,16 +767,16 @@ color:#FFFFFF;
    }
    .notify
    {
-    font-size: 8px;
+    font-size: 9px;
     letter-spacing: 0.1px;
     margin-top: 130%;
     margin-left: 64%;
     
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 0%;
+    padding-top: 1%;
   
-    width: 20%;
+    width: 23%;
     /* height: 10px;
     text-align: top; */
     box-sizing: border-box;
