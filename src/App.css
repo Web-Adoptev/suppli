@@ -2,10 +2,10 @@
 .info
 {
   z-index: 10;
-position: fixed;
+position: absolute;
 bottom: 0%;
 margin-left: 3%;
-margin-top: 47%;
+margin-top: 10%;
 background: transparent;
 color:#FFFFFF;
 border: none;
@@ -440,11 +440,11 @@ color:#FFFFFF;
 
 @media (max-width: 800px)
 {
-  .info
+  /* .info
   {
-    margin-top: 20%;
+    margin-top: 80%;
 
-  }
+  } */
   .enter
   {
     margin-top: 11%;
@@ -460,6 +460,7 @@ color:#FFFFFF;
     letter-spacing: 0.1em;
     margin-left: 11%;
     margin-top: 17%;
+    font-family: 'Gemunu Libre ExtraLight';
   }
 
   .uni
@@ -542,13 +543,13 @@ color:#FFFFFF;
   }
   .notify
   {
-    font-size: 6.5px;
+    font-size: 6px;
     letter-spacing: 0.200em;
     margin-top: 22%;
     margin-left: 87%;
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 0.5%;
+    padding-top: 0%;
   }
    .soon
    {
@@ -595,7 +596,7 @@ color:#FFFFFF;
      width: fit-content;
     font-size: 15px;
     letter-spacing: 0.1em;
-     margin-left: 8%;
+     margin-left: 6%;
      margin-top: 28%;
    }
    .image2
@@ -610,7 +611,7 @@ color:#FFFFFF;
 {
   .sub
   {
-    font-size: 10px;
+    font-size: 11px;
     letter-spacing: 0.060em;
     margin-top: 85%;
     margin-left: 18%;
@@ -618,7 +619,7 @@ color:#FFFFFF;
 
    .enter
    {
-    font-size: 10px;
+    font-size: 11px;
     letter-spacing: 0.105px;
     margin-top: 90%;
     margin-left: 17%;
@@ -627,14 +628,14 @@ color:#FFFFFF;
 
    .notify
    {
-    font-size: 6px;
+    font-size: 8px;
     letter-spacing: 0.200em;
     margin-top: 90%;
     margin-left: 64%;
     
     padding-left: 4%;
     padding-right: 4%;
-    padding-top: 0%;
+    padding-top: 1%;
    }
 
    .net
@@ -642,7 +643,7 @@ color:#FFFFFF;
      width: fit-content;
     font-size: 15px;
     letter-spacing: 0.1em;
-     margin-left: 25%;
+     margin-left: 23%;
      margin-top: 25%;
    }
    .uni
