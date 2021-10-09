@@ -2,7 +2,7 @@
 .info
 {
   z-index: 10;
-position: absolute;
+position: fixed;
 bottom: 0%;
 margin-left: 3%;
 margin-top: 10%;
@@ -34,7 +34,7 @@ width: 50%;
 border: none;
 background: transparent;
 
-font-family: 'Gemunu Libre ExtraLight', sans-serif;
+font-family: 'Gemunu Libre ExtraLight';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -61,7 +61,7 @@ padding: 9px;
 border-radius: 20px;
 
 
-font-family: 'Gemunu Libre Medium', sans-serif;
+font-family: 'Gemunu Libre ExtraLight';
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
@@ -92,7 +92,7 @@ background: #144189;
 border-color: white;
 
 box-sizing: border-box;
-font-family: 'Gemunu Libre Medium', sans-serif;
+font-family: 'Gemunu Libre ExtraLight';
 font-style: normal;
 font-weight: 600;
 font-size: 10px;
@@ -136,7 +136,7 @@ margin-top: 22%;
 border: none;
 background: transparent;
 
-font-family: 'Sora', sans-serif;
+font-family: 'Sora';
 font-style: normal;
 font-weight: 300;
 font-size: 17px;
@@ -181,8 +181,8 @@ color:white;
 {
   z-index: 10;
 position: fixed;
-width: 23%;
-margin-left: 15%;
+width: fit-content;
+margin-right: 20%;
 margin-top: 15%;
 border: none;
 padding: 0.5%;
@@ -190,7 +190,7 @@ border-radius: 5px;
 background: transparent;
 
 
-font-family: 'Gemunu Libre ExtraLight', sans-serif;
+font-family: 'Gemunu Libre ExtraLight';
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -199,7 +199,7 @@ text-align: center;
 letter-spacing: 0.3em;
 border: 1px dashed #FFFFFF;
 text-transform: uppercase;
-color:#FFFFFF;
+color: white;
 
 }
 
@@ -225,7 +225,7 @@ color:#FFFFFF;
   margin-left: 12%;
   margin-top: 4%;
 } */
-.image4
+.image5
 {
   position: fixed;
   margin-left: 12%;
@@ -237,7 +237,7 @@ color:#FFFFFF;
   {
     width: fit-content;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 25%;
     font-family: 'Gemunu Libre ExtraLight';
   }
 }
@@ -250,19 +250,19 @@ color:#FFFFFF;
   }
   .info
   {
-    margin-top: 44%;
+    margin-top: 30%;
   }
   .net
   {
     width: fit-content;
     margin-top: 14%;
-    margin-left: 14%;
+    margin-left: 12%;
     font-family: 'Gemunu Libre ExtraLight';
   }
    .uni
    {
     font-size: 21px;
-    margin-left: 11%;
+    margin-left: 9.5%;
     margin-top: 23%;
     width: fit-content;
     padding-bottom: 0px;
@@ -272,7 +272,7 @@ color:#FFFFFF;
    .certify
    {
     font-size: 17.5px;
-    margin-left: 11%;
+    margin-left: 9.5%;
     margin-top: 25.5%;
     width: fit-content;
    }
@@ -281,8 +281,8 @@ color:#FFFFFF;
    {
     font-size: 60px;
     letter-spacing: 0.02em;
-    margin-left: 9%;
-    margin-top: 32%;
+    margin-left: 7%;
+    margin-top: 34%;
    }
 
    /* .image3
@@ -291,22 +291,23 @@ color:#FFFFFF;
      margin-top: 3%;
      margin-left: 11%;
    } */
-   .image4
+   .image5
    {
-    width: 28%;
+    width: 30%;
     margin-top: 3%;
-    margin-left: 12.5%;
+    margin-left: 12%;
    }
    .image2
    {
      width: 50%;
+     margin-top: 23%;
    }
 }
 @media (max-width: 1024px)
 {
-  .image4
+  .image5
   {
-    width: 28%;
+    width: 30%;
     margin-top: 3%;
     margin-left: 12.5%;
 
@@ -314,8 +315,9 @@ color:#FFFFFF;
   .net
   {
     width: fit-content;
+    font-size: 15px;
     margin-top: 14%;
-    margin-left: 12%;
+    margin-left: 13%;
     font-family: 'Gemunu Libre ExtraLight';
   }
   .uni
@@ -334,7 +336,7 @@ color:#FFFFFF;
     margin-left: 9%;
     margin-top: 30%;
     width: fit-content;
-    viewport-fit: 412 x 732;
+    
   }
   .soon
   {
@@ -369,10 +371,11 @@ color:#FFFFFF;
      width: 39%;
      margin-top: 4%;
    } */
-   .image4
+   .image5
    {
     width: 39%;
     margin-top: 4%;
+    margin-left: 10%;
    }
    .enter
    {
@@ -386,27 +389,28 @@ color:#FFFFFF;
    .net
    {
      width: fit-content;
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 0.1em;
     margin-top: 17%;
-    margin-left: 13%;
+    margin-left: 12%;
+    font-family: 'Gemunu Libre ExtraLight';
    }
 
    .uni
    {
-    font-size: 14px;
-    margin-left: 15%;
-    margin-top: 28%;
+    font-size: 17px;
+    margin-left: 10%;
+    margin-top: 31%;
     width: fit-content;
     
   border-bottom-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 1px;
    }
    .certify
    {
-    font-size: 11.5px;
-    margin-left: 15.5%;
-    margin-top: 31%;
+    font-size: 14px;
+    margin-left: 10%;
+    margin-top: 34%;
     width: fit-content;
    }
 
@@ -423,17 +427,17 @@ color:#FFFFFF;
 
    .soon
    {
-    font-size: 40px;
+    font-size: 42px;
     letter-spacing: 0.02em;
-    margin-left: 14%;
-    margin-top: 36%;
+    margin-left: 10%;
+    margin-top: 45%;
    }
    
    .sub
    {
     font-size: 11px;
     letter-spacing: 0.060em;
-    margin-top: 8%;
+    margin-top: 8.5%;
    }
   
 }
@@ -456,7 +460,7 @@ color:#FFFFFF;
   .net
   {
     width: fit-content;
-    font-size: 21px;
+    font-size: 18px;
     letter-spacing: 0.1em;
     margin-left: 11%;
     margin-top: 17%;
@@ -466,8 +470,8 @@ color:#FFFFFF;
   .uni
   {
     /* width: 60%; */
-    font-size: 13px;
-    margin-left: 11%;
+    font-size: 15px;
+    margin-left: 9%;
     margin-top: 30%;
     width: fit-content;
     padding-bottom: 0%;
@@ -477,13 +481,13 @@ color:#FFFFFF;
   .certify
   {
     /* width: 70%; */
-    font-size: 11px;
-    margin-left: 11%;
+    font-size: 12.5px;
+    margin-left: 9%;
     margin-top: 34%;
   }
   .soon
   {
-    font-size: 33px;
+    font-size: 36px;
     letter-spacing: 0.05em;
     margin-left: 9%;
     margin-top: 45%;
@@ -500,6 +504,7 @@ color:#FFFFFF;
   .image2
   {
     width: 60%;
+    margin-top: 45%;
   }
   /* .image3
   {
@@ -507,9 +512,9 @@ color:#FFFFFF;
     margin-left: 9%;
     margin-top: 4%;
   } */
-  .image4
+  .image5
   {
-    width: 40%;
+    width: 36%;
     margin-left: 9%;
     margin-top: 4%;
   }
@@ -529,7 +534,7 @@ color:#FFFFFF;
     font-size: 12px;
     letter-spacing: 0.105px;
     margin-top: 22%;
-    margin-left: 57%;
+    margin-left: 55%;
     width: 25%;
   }
 
@@ -538,22 +543,23 @@ color:#FFFFFF;
     font-size: 10px;
     letter-spacing: 0.060em;
     margin-top: 18%;
-    margin-left: 58%;
+    margin-left: 56%;
     
   }
   .notify
   {
-    font-size: 6px;
+    
+    font-size: 7px;
     letter-spacing: 0.200em;
     margin-top: 22%;
-    margin-left: 87%;
+    margin-left: 84%;
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 0%;
+    padding-top: 0.5%;
   }
    .soon
    {
-    font-size: 25px;
+    font-size: 29px;
     letter-spacing: 0.02em;
     margin-left: 6%;
     margin-top: 65%;
@@ -566,7 +572,7 @@ color:#FFFFFF;
      margin-left: 8%;
      margin-top: 3%;
     } */
-   .image4
+   .image5
    {
     position: fixed;
     width: 40%;
@@ -575,7 +581,7 @@ color:#FFFFFF;
    }
    .uni
    {
-    font-size: 9px;
+    font-size: 11px;
     margin-left: 9%;
     margin-top: 45%;
     width: fit-content;
@@ -585,7 +591,7 @@ color:#FFFFFF;
    }
    .certify
    {
-     font-size: 7.5px;
+     font-size: 9px;
      margin-left: 9%;
      margin-top: 50%;
    }
@@ -594,10 +600,11 @@ color:#FFFFFF;
    .net
    {
      width: fit-content;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.1em;
-     margin-left: 6%;
+     margin-left: 11%;
      margin-top: 28%;
+     font-family: 'Gemunu Libre ExtraLight';
    }
    .image2
    {
@@ -619,7 +626,7 @@ color:#FFFFFF;
 
    .enter
    {
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.105px;
     margin-top: 90%;
     margin-left: 17%;
@@ -635,16 +642,17 @@ color:#FFFFFF;
     
     padding-left: 4%;
     padding-right: 4%;
-    padding-top: 1%;
+    padding-top: 0%;
    }
 
    .net
    {
      width: fit-content;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 0.1em;
-     margin-left: 23%;
+     margin-left: 32.5%;
      margin-top: 25%;
+     font-family: 'Gemunu Libre ExtraLight';
    }
    .uni
    {
@@ -693,7 +701,7 @@ color:#FFFFFF;
     margin-left: 30%;
     margin-top: 10%;
   } */
-   .image4
+   .image5
    {
     margin-left: 30%;
     margin-top: 10%;
@@ -709,7 +717,7 @@ color:#FFFFFF;
      margin-top: 25%;
      margin-left: 20%;
    } */
-   .image4
+   .image5
    {
     width: 60%;
     margin-top: 25%;
@@ -718,16 +726,17 @@ color:#FFFFFF;
    .net
    {
      width: fit-content;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.1em;
-     margin-left: 16%;
+     margin-left: 28%;
      margin-top: 48%;
+     font-family: 'Gemunu Libre ExtraLight';
    }
    .uni
    {
-     width: 100%;
-    font-size: 11px;
-    margin-left: 16%;
+    
+    font-size: 10px;
+    margin-left: 20%;
     margin-top: 70%;
     width: fit-content;
     padding-bottom: 0%;
@@ -737,8 +746,8 @@ color:#FFFFFF;
    .certify
    {
      width: 100%;
-    font-size: 8.8px;
-    margin-left: 17%;
+    font-size: 8.5px;
+    margin-left: 19%;
     margin-top: 78%;
    } 
    .soon
@@ -790,6 +799,50 @@ color:#FFFFFF;
    {
      margin-top: 202%;
    }
+
+   @media (max-width: 300px)
+   {
+     .net
+     {
+       font-size: 9px;
+     }
+     .uni
+     {
+       font-size: 8.5px;
+       width: fit-content;
+       margin-top: 76%;
+     }
+     .certify
+     {
+       font-size: 7px;
+       margin-left: 20%;
+       margin-top: 85%;
+     }
+     .soon
+     {
+      margin-left: 10%;
+      margin-top: 100%;
+     }
+     .notify
+     {
+       font-size: 8px;
+     }
+     .enter
+     {
+       margin-top: 150%;
+     }
+     .notify
+     {
+       margin-top: 150%;
+       padding: 0.5%;
+     }
+     .sub
+     {
+       margin-top: 140%;
+     }
+   }
+
+
 }
 
 
