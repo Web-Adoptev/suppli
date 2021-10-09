@@ -256,7 +256,7 @@ color: white;
   {
     width: fit-content;
     margin-top: 14%;
-    margin-left: 12%;
+    margin-left: 9%;
     font-family: 'Gemunu Libre ExtraLight';
   }
    .uni
@@ -317,7 +317,7 @@ color: white;
     width: fit-content;
     font-size: 15px;
     margin-top: 14%;
-    margin-left: 13%;
+    margin-left: 9%;
     font-family: 'Gemunu Libre ExtraLight';
   }
   .uni
@@ -392,7 +392,7 @@ color: white;
     font-size: 24px;
     letter-spacing: 0.1em;
     margin-top: 17%;
-    margin-left: 12%;
+    margin-left: 8%;
     font-family: 'Gemunu Libre ExtraLight';
    }
 
@@ -462,7 +462,7 @@ color: white;
     width: fit-content;
     font-size: 18px;
     letter-spacing: 0.1em;
-    margin-left: 11%;
+    margin-left: 9%;
     margin-top: 25%;
     font-family: 'Gemunu Libre ExtraLight';
   }
@@ -602,7 +602,7 @@ color: white;
      width: fit-content;
     font-size: 14px;
     letter-spacing: 0.1em;
-     margin-left: 9%;
+     margin-left: 7%;
      margin-top: 28%;
      font-family: 'Gemunu Libre ExtraLight';
    }
@@ -650,7 +650,7 @@ color: white;
      width: fit-content;
     font-size: 10px;
     letter-spacing: 0.1em;
-     margin-left: 32.5%;
+     margin-left: 31%;
      margin-top: 25%;
      font-family: 'Gemunu Libre ExtraLight';
    }
@@ -726,7 +726,7 @@ color: white;
    .net
    {
      width: fit-content;
-    font-size: 10px;
+    font-size: 8px;
     letter-spacing: 0.1em;
      margin-left: 28%;
      margin-top: 48%;
@@ -804,7 +804,7 @@ color: white;
    {
      .net
      {
-       font-size: 6px;
+       font-size: 8px;
      }
      .uni
      {
